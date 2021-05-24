@@ -38,6 +38,7 @@ public class MainActivity extends AppCompatActivity {
     }
     public void animation3(View view)
     {
+        //imageView.animate().rotation(720).scaleX(0.5f).scaleY(0.5f).setDuration(2000);
         imageView.animate().alpha(0).setDuration(1000);     //disappear
     }
 
