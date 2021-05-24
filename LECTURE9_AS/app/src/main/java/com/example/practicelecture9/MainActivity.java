@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         seekbar= findViewById(R.id.seekBar);
         listView= findViewById(R.id.ListViewSeekbar);
-        seekbar.setMax(20);
+        seekbar.setMax(80);
         seekbar.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
             @Override
             public void onProgressChanged(SeekBar seekBar, int progress, boolean fromUser)
@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
                 //Log.i("Seek bar Value",String.valueOf(progress));
                 //int tablenumber =progress;
                 ArrayList<String> tablearraylist =new ArrayList<String>();
-                for (int x=1; x<51; x++)
+                for (int x=1; x<80; x++)
                 {
                     tablearraylist.add(Integer.toString(x*progress));
                 }
