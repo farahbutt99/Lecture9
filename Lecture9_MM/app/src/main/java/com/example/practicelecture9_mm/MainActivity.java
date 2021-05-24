@@ -33,8 +33,8 @@ public class MainActivity extends AppCompatActivity {
     }
     public void animation2(View view)
     {
-        //imageView.animate().scaleY(0.5f);
-     imageView.animate().rotation(720).scaleX(0.5f).scaleY(0.5f).setDuration(2000);
+        imageView.animate().scaleY(0.5f);
+     //imageView.animate().rotation(720).scaleX(0.5f).scaleY(0.5f).setDuration(2000);
     }
     public void animation3(View view)
     {
